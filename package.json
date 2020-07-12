@@ -1,0 +1,21 @@
+{
+  "name": "drizzef/node-boilerplate",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build:watch": "yarn run build -- --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.4",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  }
+}
